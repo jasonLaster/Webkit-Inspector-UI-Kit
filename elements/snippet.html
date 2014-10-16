@@ -1,0 +1,307 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="elementsPanel.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="inspector.css" media="screen" title="no title" charset="utf-8">
+
+  <script src='https://code.jquery.com/jquery-1.11.1.js'></script>
+  <script src="element.js"></script>
+
+</head>
+
+<body>
+
+  <div id="new-el"></div>
+
+  <div data-short-example style="display:none">
+    <span class="webkit-html-tag">
+      &lt;
+      <span class="webkit-html-tag-name">html</span>
+
+      <span class="webkit-html-attribute">
+        <span class="webkit-html-attribute-name">lang</span>
+        =&#8203;
+        "
+        <span class="webkit-html-attribute-value">en</span>
+        "
+      </span>
+
+      <span class="webkit-html-attribute">
+        <span class="webkit-html-attribute-name">class</span>
+        <span class="webkit-html-attribute-value"></span>
+      </span>
+
+      <span class="webkit-html-attribute">
+        <span class="webkit-html-attribute-name">data-ember-extension</span>
+        =&#8203;"
+        <span class="webkit-html-attribute-value">1</span>
+        "
+      </span>
+      &gt;
+    </span>
+
+    &hellip;
+
+    <span class="webkit-html-tag">
+      &lt;
+      <span>/div</span>
+      &gt;
+    </span>
+  </div>
+
+  <div data-long-example style="display:none">
+    <div id="elements-content" class="outline-disclosure source-code">
+      <ol class="elements-tree-outline" tabindex="0">
+        <li title="" draggable="true" class="">
+          <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-doctype">&lt;!DOCTYPE html&gt;</span></span>
+        </li>
+        <li title="" class="parent expanded" draggable="true">
+          <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">html</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">lang</span>=&#8203;"<span class="webkit-html-attribute-value">en</span>"</span>
+          <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span><span class="webkit-html-attribute-value"></span></span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">data-ember-extension</span>=&#8203;"
+          <span
+          class="webkit-html-attribute-value">1</span>"</span>&gt;</span>&#8203;</span>
+        </li>
+        <ol class="children expanded">
+          <li title="" class="parent" draggable="true">
+            <div class="selection selected" style="height: 25px;"></div><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">head</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">prefix</span>=&#8203;"<span class="webkit-html-attribute-value">og:&#8203; http:&#8203;/&#8203;/&#8203;ogp.me/&#8203;ns# fb:&#8203; http:&#8203;/&#8203;/&#8203;ogp.me/&#8203;ns/&#8203;fb# object:&#8203; http:&#8203;/&#8203;/&#8203;ogp.me/&#8203;ns/&#8203;object# article:&#8203; http:&#8203;/&#8203;/&#8203;ogp.me/&#8203;ns/&#8203;article# profile:&#8203; http:&#8203;/&#8203;/&#8203;ogp.me/&#8203;ns/&#8203;profile#</span>"</span>&gt;</span>&#8203;
+            <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/head</span>&gt;</span>&#8203;</span>
+          </li>
+          <li title="" class="parent expanded" draggable="true">
+            <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">body</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">logged_in  env-production macintosh vis-public dark-theme</span>"</span>&gt;</span>&#8203;</span>
+          </li>
+          <ol class="children expanded">
+            <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">a</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">href</span>=&#8203;"<a href="https://github.com/marionettejs/backbone.marionette#start-of-content"
+              class="webkit-html-attribute-value webkit-html-external-link" title="https://github.com/marionettejs/backbone.marionette#start-of-content" target="_blank">#start-of-content</a>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">tabindex</span>=&#8203;"
+              <span class="webkit-html-attribute-value">1</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">accessibility-aid js-skip-to-content</span>"</span>&gt;</span>&#8203;
+              <span
+              class="webkit-html-text-node">Skip to content</span>&#8203;
+                <span class="webkit-html-tag">&lt;<span>/a</span>&gt;</span>&#8203;</span>
+            </li>
+            <li title="" class="parent expanded" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">wrapper</span>"</span>&gt;</span>&#8203;</span>
+            </li>
+            <ol class="children expanded">
+              <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">header header-logged-in true</span>"</span>
+                <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">role</span>=&#8203;"<span class="webkit-html-attribute-value">banner</span>"</span>&gt;</span>&#8203;<span class="webkit-html-text-node bogus">…</span>&#8203;
+                <span
+                class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+              </li>
+              <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">id</span>=&#8203;"<span class="webkit-html-attribute-value">start-of-content</span>"</span>
+                <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">accessibility-aid</span>"</span>&gt;</span>&#8203;<span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+              </li>
+              <li title="" class="parent expanded" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">site</span>"</span>
+                <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">itemscope</span><span class="webkit-html-attribute-value"></span></span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">itemtype</span>=&#8203;"
+                <span
+                class="webkit-html-attribute-value">http:&#8203;/&#8203;/&#8203;schema.org/&#8203;WebPage</span>"</span>&gt;</span>&#8203;</span>
+              </li>
+              <ol class="children expanded">
+                <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">id</span>=&#8203;"<span class="webkit-html-attribute-value">js-flash-container</span>"</span>&gt;</span>&#8203;
+                  <span class="webkit-html-text-node">
+
+                  </span>&#8203;<span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                </li>
+                <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">pagehead repohead instapaper_ignore readability-menu</span>"</span>&gt;</span>&#8203;
+                  <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                </li>
+                <li title="" draggable="true"><span class="highlight"><span class="webkit-html-comment">&lt;!-- /.repohead --&gt;</span></span>
+                </li>
+                <li title="" class="parent expanded" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">container</span>"</span>&gt;</span>&#8203;</span>
+                </li>
+                <ol class="children expanded">
+                  <li title="" draggable="true"><span class="highlight"><span class="webkit-html-pseudo-element">::before</span>&#8203;</span>
+                  </li>
+                  <li title="" class="parent expanded" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">repository-with-sidebar repo-container new-discussion-timeline with-full-navigation</span>"</span>&gt;</span>&#8203;</span>
+                  </li>
+                  <ol class="children expanded">
+                    <li title="" draggable="true" class="">
+                      <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-pseudo-element">::before</span>&#8203;</span>
+                    </li>
+                    <li title="" class="parent expanded" draggable="true">
+                      <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">repository-sidebar clearfix</span>"</span>&gt;</span>&#8203;</span>
+                    </li>
+                    <ol class="children expanded">
+                      <li title="" draggable="true" class="">
+                        <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-pseudo-element">::before</span>&#8203;</span>
+                      </li>
+                      <li title="" class="parent expanded" draggable="true">
+                        <div class="selection selected" style="height: 38px;"></div><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders</span>"</span>
+                        <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">role</span>=&#8203;"<span class="webkit-html-attribute-value">navigation</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">data-issue-count-url</span>=&#8203;"
+                        <span class="webkit-html-attribute-value">/&#8203;marionettejs/&#8203;backbone.marionette/&#8203;issues/&#8203;counts</span>"</span>&gt;</span>&#8203;</span>
+                      </li>
+                      <ol class="children expanded">
+                        <li title="" class="parent expanded" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">sunken-menu-contents</span>"</span>&gt;</span>&#8203;</span>
+                        </li>
+                        <ol class="children expanded">
+                          <li title="" draggable="true" class="">
+                            <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-pseudo-element">::before</span>&#8203;</span>
+                          </li>
+                          <li title="" class="parent expanded" draggable="true">
+                            <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">ul</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">sunken-menu-group</span>"</span>&gt;</span>&#8203;</span>
+                          </li>
+                          <ol class="children expanded">
+                            <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">li</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">tooltipped tooltipped-w</span>"</span>
+                              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">aria-label</span>=&#8203;"<span class="webkit-html-attribute-value">Code</span>"</span>&gt;</span>&#8203;<span class="webkit-html-text-node bogus">…</span>&#8203;
+                              <span
+                              class="webkit-html-tag">&lt;<span>/li</span>&gt;</span>&#8203;</span>
+                            </li>
+                            <li title="" class="parent expanded" draggable="true">
+                              <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">li</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">tooltipped tooltipped-w</span>"</span>
+                              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">aria-label</span>=&#8203;"<span class="webkit-html-attribute-value">Issues</span>"</span>&gt;</span>&#8203;</span>
+                            </li>
+                            <ol class="children expanded">
+                              <li title="" class="parent expanded" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">a</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">href</span>=&#8203;"<a href="https://github.com/marionettejs/backbone.marionette/issues"
+                                class="webkit-html-attribute-value webkit-html-external-link" title="https://github.com/marionettejs/backbone.marionette/issues" target="_blank">/&#8203;marionettejs/&#8203;backbone.marionette/&#8203;issues</a>"</span>
+                                <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">aria-label</span>=&#8203;"<span class="webkit-html-attribute-value">Issues</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"
+                                <span class="webkit-html-attribute-value">js-selected-navigation-item sunken-menu-item js-disable-pjax</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">data-hotkey</span>=&#8203;"
+                                <span
+                                class="webkit-html-attribute-value">g i</span>"</span>
+                                  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">data-selected-links</span>=&#8203;"<span class="webkit-html-attribute-value">repo_issues repo_labels repo_milestones /&#8203;marionettejs/&#8203;backbone.marionette/&#8203;issues</span>"</span>&gt;</span>&#8203;</span>
+                              </li>
+                              <ol class="children expanded">
+                                <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">span</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">octicon octicon-issue-opened</span>"</span>&gt;</span>&#8203;
+                                  <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/span</span>&gt;</span>&#8203;</span>
+                                </li>
+                                <li title="" draggable="true" class="selected">
+                                  <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">span</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">full-word</span>"</span>&gt;</span>&#8203;
+                                  <span class="webkit-html-text-node">Issues</span>&#8203;<span class="webkit-html-tag">&lt;<span>/span</span>&gt;</span>&#8203;</span>
+                                </li>
+                                <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">span</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">counter</span>"</span>&gt;</span>&#8203;
+                                  <span class="webkit-html-text-node">39</span>&#8203;<span class="webkit-html-tag">&lt;<span>/span</span>&gt;</span>&#8203;</span>
+                                </li>
+                                <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">img</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">alt</span><span class="webkit-html-attribute-value"></span></span>
+                                  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">mini-loader</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">height</span>=&#8203;"
+                                  <span class="webkit-html-attribute-value">16</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">src</span>=&#8203;"<a href="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif"
+                                  class="webkit-html-attribute-value webkit-html-resource-link" title="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif">https:&#8203;/&#8203;/&#8203;assets-cdn.github.com/&#8203;images/&#8203;spinners/&#8203;octocat-spinner-32.gif</a>"</span>
+                                  <span
+                                  class="webkit-html-attribute"><span class="webkit-html-attribute-name">width</span>=&#8203;"
+                                    <span class="webkit-html-attribute-value">16</span>"</span>&gt;</span>&#8203;</span>
+                                </li>
+                                <li title="" draggable="true" class="hovered">
+                                  <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/a</span>&gt;</span>&#8203;</span>
+                                </li>
+                              </ol>
+                              <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/li</span>&gt;</span>&#8203;</span>
+                              </li>
+                            </ol>
+                            <li title="" class="parent" draggable="true">
+                              <div class="selection selected" style="height: 13px;"></div><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">li</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">tooltipped tooltipped-w</span>"</span>
+                              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">aria-label</span>=&#8203;"<span class="webkit-html-attribute-value">Pull Requests</span>"</span>&gt;</span>&#8203;<span class="webkit-html-text-node bogus">…</span>&#8203;
+                              <span
+                              class="webkit-html-tag">&lt;<span>/li</span>&gt;</span>&#8203;</span>
+                            </li>
+                            <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/ul</span>&gt;</span>&#8203;</span>
+                            </li>
+                          </ol>
+                          <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">sunken-menu-separator</span>"</span>&gt;</span>&#8203;
+                            <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                          </li>
+                          <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">ul</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">sunken-menu-group</span>"</span>&gt;</span>&#8203;
+                            <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/ul</span>&gt;</span>&#8203;</span>
+                          </li>
+                          <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">sunken-menu-separator</span>"</span>&gt;</span>&#8203;
+                            <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                          </li>
+                          <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">ul</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">sunken-menu-group</span>"</span>&gt;</span>&#8203;
+                            <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/ul</span>&gt;</span>&#8203;</span>
+                          </li>
+                          <li title="" draggable="true"><span class="highlight"><span class="webkit-html-pseudo-element">::after</span>&#8203;</span>
+                          </li>
+                          <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                          </li>
+                        </ol>
+                        <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                        </li>
+                      </ol>
+                      <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">only-with-full-nav</span>"</span>&gt;</span>&#8203;
+                        <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                      </li>
+                      <li title="" draggable="true"><span class="highlight"><span class="webkit-html-pseudo-element">::after</span>&#8203;</span>
+                      </li>
+                      <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                      </li>
+                    </ol>
+                    <li title="" draggable="true"><span class="highlight"><span class="webkit-html-comment">&lt;!-- /.repository-sidebar --&gt;</span></span>
+                    </li>
+                    <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">id</span>=&#8203;"<span class="webkit-html-attribute-value">js-repo-pjax-container</span>"</span>
+                      <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">repository-content context-loader-container</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">data-pjax-container</span>
+                      <span class="webkit-html-attribute-value"></span>
+                      </span>&gt;</span>&#8203;<span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                    </li>
+                    <li title="" draggable="true"><span class="highlight"><span class="webkit-html-pseudo-element">::after</span>&#8203;</span>
+                    </li>
+                    <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                    </li>
+                  </ol>
+                  <li title="" draggable="true"><span class="highlight"><span class="webkit-html-comment">&lt;!-- /.repo-container --&gt;</span></span>
+                  </li>
+                  <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">modal-backdrop</span>"</span>&gt;</span>&#8203;
+                    <span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                  </li>
+                  <li title="" draggable="true"><span class="highlight"><span class="webkit-html-pseudo-element">::after</span>&#8203;</span>
+                  </li>
+                  <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                  </li>
+                </ol>
+                <li title="" draggable="true"><span class="highlight"><span class="webkit-html-comment">&lt;!-- /.container --&gt;</span></span>
+                </li>
+                <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+                </li>
+              </ol>
+              <li title="" draggable="true"><span class="highlight"><span class="webkit-html-comment">&lt;!-- /.site --&gt;</span></span>
+              </li>
+              <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+              </li>
+            </ol>
+            <li title="" draggable="true"><span class="highlight"><span class="webkit-html-comment">&lt;!-- /.wrapper --&gt;</span></span>
+            </li>
+            <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">container</span>"</span>&gt;</span>&#8203;
+              <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+            </li>
+            <li title="" draggable="true"><span class="highlight"><span class="webkit-html-comment">&lt;!-- /.container --&gt;</span></span>
+            </li>
+            <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">fullscreen-overlay js-fullscreen-overlay dark-theme</span>"</span>
+              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">id</span>=&#8203;"<span class="webkit-html-attribute-value">fullscreen_overlay</span>"</span>&gt;</span>&#8203;<span class="webkit-html-text-node bogus">…</span>&#8203;
+              <span
+              class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+            </li>
+            <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">id</span>=&#8203;"<span class="webkit-html-attribute-value">ajax-error-message</span>"</span>
+              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">flash flash-error</span>"</span>&gt;</span>&#8203;<span class="webkit-html-text-node bogus">…</span>&#8203;
+              <span
+              class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+            </li>
+            <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">script</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">crossorigin</span>=&#8203;"<span class="webkit-html-attribute-value">anonymous</span>"</span>
+              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">src</span>=&#8203;"<a href="https://assets-cdn.github.com/assets/frameworks-fb195fd1a4d42cc4b15379bdba88dece701142d2444f997052fadc7379f85f74.js" class="webkit-html-attribute-value webkit-html-resource-link"
+              title="https://assets-cdn.github.com/assets/frameworks-fb195fd1a4d42cc4b15379bdba88dece701142d2444f997052fadc7379f85f74.js">https:&#8203;/&#8203;/&#8203;assets-cdn.github.com/&#8203;assets/&#8203;frameworks-fb195fd1a4d42cc4b15379bdba88dece701142d2444f997052fadc7379f85f74.js</a>"</span>
+              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">type</span>=&#8203;"<span class="webkit-html-attribute-value">text/&#8203;javascript</span>"</span>&gt;</span>&#8203;<span class="webkit-html-tag">&lt;<span>/script</span>&gt;</span>&#8203;</span>
+            </li>
+            <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">script</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">async</span>=&#8203;"<span class="webkit-html-attribute-value">async</span>"</span>
+              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">crossorigin</span>=&#8203;"<span class="webkit-html-attribute-value">anonymous</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">src</span>=&#8203;"
+              <a
+              href="https://assets-cdn.github.com/assets/github-3d0860017f9f5e11b09b7de3bf98c2d0f9e2a694b997d47cdf9a00b684c043c4.js" class="webkit-html-attribute-value webkit-html-resource-link" title="https://assets-cdn.github.com/assets/github-3d0860017f9f5e11b09b7de3bf98c2d0f9e2a694b997d47cdf9a00b684c043c4.js">https:&#8203;/&#8203;/&#8203;assets-cdn.github.com/&#8203;assets/&#8203;github-3d0860017f9f5e11b09b7de3bf98c2d0f9e2a694b997d47cdf9a00b684c043c4.js</a>"</span>
+                <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">type</span>=&#8203;"<span class="webkit-html-attribute-value">text/&#8203;javascript</span>"</span>&gt;</span>&#8203;<span class="webkit-html-tag">&lt;<span>/script</span>&gt;</span>&#8203;</span>
+            </li>
+            <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">id</span>=&#8203;"<span class="webkit-html-attribute-value">global-zeroclipboard-html-bridge</span>"</span>
+              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">global-zeroclipboard-container</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">style</span>=&#8203;"
+              <span class="webkit-html-attribute-value">position:&#8203; absolute;&#8203; left:&#8203; 0px;&#8203; top:&#8203; -9999px;&#8203; width:&#8203; 1px;&#8203; height:&#8203; 1px;&#8203; z-index:&#8203; 999999999;&#8203;</span>"</span>&gt;</span>&#8203;
+              <span
+              class="webkit-html-text-node bogus">…</span>&#8203;
+                <span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+            </li>
+            <li title="" class="parent" draggable="true"><span class="highlight"><span class="webkit-html-tag">&lt;<span class="webkit-html-tag-name">div</span>  <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">class</span>=&#8203;"<span class="webkit-html-attribute-value">facebox</span>"</span>
+              <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">id</span>=&#8203;"<span class="webkit-html-attribute-value">facebox</span>"</span> <span class="webkit-html-attribute"><span class="webkit-html-attribute-name">style</span>=&#8203;"
+              <span
+              class="webkit-html-attribute-value">display:&#8203;none;&#8203;</span>"</span>&gt;</span>&#8203;
+                <span class="webkit-html-text-node bogus">…</span>&#8203;<span class="webkit-html-tag">&lt;<span>/div</span>&gt;</span>&#8203;</span>
+            </li>
+            <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/body</span>&gt;</span>&#8203;</span>
+            </li>
+          </ol>
+          <li title="" draggable="true"><span class="highlight"><span class="webkit-html-tag close">&lt;<span>/html</span>&gt;</span>&#8203;</span>
+          </li>
+        </ol>
+      </ol>
+    </div>
+  </div>
+
+</body>
+
+</html>
