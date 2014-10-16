@@ -1,0 +1,144 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="sidebarPane.css" media="screen" title="no title" charset="utf-8">
+  <script src='https://code.jquery.com/jquery-1.11.1.js'></script>
+
+  <style media="screen">
+    .my-element {
+      width: 400px;
+      font-size: 12px;
+      font-family: 'Lucida Grande', sans-serif;
+      margin-top:50px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+
+
+  <div class="my-element">
+    <div class="sidebar-pane-stack flex-auto visible">
+      <div class="sidebar-pane-title expanded" tabindex="0">Options
+        <div class="sidebar-pane-toolbar">
+          <button class="pane-title-button refresh" title="Refresh"></button>
+          <button class="pane-title-button add" title="Add watch expression"></button>
+        </div>
+      </div>
+      <div class="sidebar-pane visible">
+        <div class="body">
+          <div class="section expanded">
+            <div class="hidden">
+              <div class="subtitle"></div>
+              <div class="title"></div>
+            </div>
+            <ol class="properties properties-tree monospace watch-expressions">
+
+              <li title="">
+                <input type="button" title="Delete watch expression." class="enabled-button delete-button">
+                <span class="name">model</span><span class="separator">: </span><span class="value console-formatted-undefined" title="undefined">&lt;Backbone.Model&gt;</span>
+              </li>
+
+              <li title="" style="">
+                <input type="button" title="Delete watch expression." class="enabled-button delete-button">
+                <span class="name">collection</span><span class="separator">: </span><span class="value console-formatted-undefined" title="undefined">undefined</span>
+              </li>
+
+              <li title="" style="">
+                <input type="button" title="Delete watch expression." class="enabled-button delete-button">
+                <span class="name">shopData</span><span class="separator">: </span><span class="value console-formatted-undefined" title="undefined"> &lt;Backbone.Model&gt;</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-element">
+  <div class="sidebar-pane-stack flex-auto visible">
+    <div class="sidebar-pane-title expanded hidden" tabindex="0">Threads
+      <div class="sidebar-pane-toolbar"></div>
+    </div>
+    <div class="sidebar-pane visible hidden">
+      <div class="body">
+        <div class="placard selected">
+          <div class="subtitle"></div>
+          <div class="title">Main</div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar-pane-title expanded" tabindex="0">Options
+      <div class="sidebar-pane-toolbar">
+        <button class="pane-title-button refresh" title="Refresh"></button>
+        <button class="pane-title-button add" title="Add watch expression"></button>
+      </div>
+    </div>
+    <div class="sidebar-pane visible">
+      <div class="body">
+        <div class="section expanded">
+          <div class="hidden">
+            <div class="subtitle"></div>
+            <div class="title"></div>
+          </div>
+          <ol class="properties properties-tree monospace watch-expressions">
+
+            <li title="">
+              <input type="button" title="Delete watch expression." class="enabled-button delete-button"><span class="name">this.attributes</span><span class="separator">: </span><span class="value console-formatted-undefined" title="undefined">undefined</span>
+            </li>
+
+            <li title="" style="">
+              <input type="button" title="Delete watch expression." class="enabled-button delete-button"><span class="name">this.attributes</span><span class="separator">: </span><span class="value console-formatted-undefined" title="undefined">undefined</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar-pane-title expanded" tabindex="0">UI
+      <div class="sidebar-pane-toolbar">
+        <label title="Capture async stack traces" class="scripts-callstack-async">
+          <input type="checkbox" name="Async">Async</label>
+      </div>
+    </div>
+    <div class="sidebar-pane visible">
+      <div class="body" tabindex="0">
+        <div class="info">Not Paused</div>
+      </div>
+    </div>
+    <div class="sidebar-pane-title expanded" tabindex="0">Events
+      <div class="sidebar-pane-toolbar"></div>
+    </div>
+    <div class="sidebar-pane visible">
+      <div class="body">
+        <div class="info">Not Paused</div>
+      </div>
+    </div>
+    <div class="sidebar-pane-title expanded" tabindex="0">Properties
+      <div class="sidebar-pane-toolbar"></div>
+    </div>
+    <div class="sidebar-pane visible">
+      <div class="body">
+        <div class="info">No Breakpoints</div>
+      </div>
+    </div>
+    <div class="sidebar-pane-title" tabindex="0">DOM Breakpoints
+      <div class="sidebar-pane-toolbar"></div>
+    </div>
+    <div class="sidebar-pane-title" tabindex="0">XHR Breakpoints
+      <div class="sidebar-pane-toolbar">
+        <button class="pane-title-button add" title="Add XHR breakpoint"></button>
+      </div>
+    </div>
+    <div class="sidebar-pane-title" tabindex="0">Event Listener Breakpoints
+      <div class="sidebar-pane-toolbar"></div>
+    </div>
+  </div>
+  </div>
+
+
+</body>
+
+</html>
