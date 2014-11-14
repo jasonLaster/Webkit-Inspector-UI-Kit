@@ -4,7 +4,7 @@ The goal of the project is to capture common UI elements in the webkit inspector
 
 
 #### HTML Element
-The HTML element is the markup and css needed to display an html element as it shows up in the elements tab.
+The HTML element is the markup, css, and js needed to display an html element as it shows up in the elements tab.
 
 The big caveat here is that to properly draw a full DOM Node requires extracting the WebInspector.DOMNode and WebInspector.ElementsOutlineTree js, which is outside the scope of this project.
 
